@@ -59,7 +59,7 @@ function Contato() {
 "
           />
 
-          <button className="w-full h-[55px] bg-[#5F45FF] rounded-[8px] text-[#CDC5FF] font-[700] cursor-pointer hover:bg-transparent hover:border border-[#5F45FF] transition-all duration-300">
+          <button className="w-full h-[55px] bg-[#5F45FF] rounded-[8px] text-[#EFECFF] font-[700] cursor-pointer hover:bg-transparent hover:border border-[#5F45FF] transition-all duration-300">
             Enviar Mensagem
           </button>
         </form>

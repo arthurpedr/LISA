@@ -7,35 +7,35 @@ function Sobre() {
   const perguntas = [
     {
       id: 1,
-      Titulo: "Como funciona a plataforma?",
+      Titulo: "O que é automação de processos?",
       Descricao:
-        "Nossa plataforma conecta desenvolvedores a oportunidades em tecnologia através de desafios práticos e mentorias.",
+        "A automação de processos é a aplicação de tecnologias e técnicas para aprimorar e otimizar processos manuais e repetitivos em diversas áreas, como produção, logística e administração.",
     },
     {
       id: 2,
-      Titulo: "Como posso me inscrever?",
+      Titulo: "O que é processamento de sinais?",
       Descricao:
-        "Você pode se inscrever clicando no botão 'Cadastrar' no topo da página.",
+        "O processamento de sinais é a análise, interpretação e transformação de sinais, como voz, imagens e dados, para aprimorar a qualidade e eficiência de sistemas e processos.",
     },
     {
       id: 3,
-      Titulo: "Preciso pagar para participar?",
-      Descricao: "Não, a participação é completamente gratuita.",
+      Titulo: "O que é inteligência artificial?",
+      Descricao: "A inteligência artificial é a aplicação de tecnologias e técnicas para criar sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como reconhecimento de voz e imagem, tomada de decisão e aprendizado automático.",
     },
     {
       id: 4,
-      Titulo: "Preciso de experiência prévia?",
-      Descricao: "Não! Temos conteúdos para todos os níveis de conhecimento.",
+      Titulo: "O que é melhoria de processos de desenvolvimento de software?",
+      Descricao: "A melhoria de processos de desenvolvimento de software é a aplicação de técnicas e metodologias para aprimorar a qualidade e eficiência de processos de desenvolvimento de software, desde a concepção até a entrega final.",
     },
     {
       id: 5,
-      Titulo: "Como recebo as oportunidades?",
-      Descricao: "Você será notificado por e-mail e dentro da plataforma.",
+      Titulo: "O que é automação industrial?",
+      Descricao: "A automação industrial é a aplicação de tecnologias e técnicas para otimizar e automatizar processos em ambientes industriais, como produção, logística e controle de qualidade.",
     },
     {
       id: 6,
-      Titulo: "A mentoria é individual?",
-      Descricao: "As mentorias podem ser em grupo ou individuais, dependendo do programa.",
+      Titulo: "Como posso colaborar com o grupo de P&D?",
+      Descricao: "Você pode entrar em contato conosco por meio do formulário de contato em nosso site ou por e-mail, e podemos discutir possíveis oportunidades de colaboração, como projetos de pesquisa, parcerias ou programas de estágio.",
     },
   ];
 

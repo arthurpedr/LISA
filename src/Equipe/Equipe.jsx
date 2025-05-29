@@ -2,7 +2,7 @@ import CardsEquipe from "../Componentes/tags/CardsEquipe";
 
 function Equipe () {
     return (
-        <div className="w-full h-full lg:h-[1178px] bg-[#1C1D20] text-[#EFECFF] flex flex-col justify-center items-center gap-45 md:gap-20"
+        <div className="w-full h-full bg-[#1C1D20] text-[#EFECFF] flex flex-col justify-center items-center gap-45 md:gap-20 py-8"
         id="Equipe">
             <div className="flex flex-col max-w-[1280px] h-[110px] text-center">
                 <p className="font-[700] text-[40px]">Conheça o time por trás das soluções</p>
@@ -10,34 +10,49 @@ function Equipe () {
             </div>
             <div className="max-w-[1280px] grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"./segundo.png"}
+                Nome={"Dr. Francisco Segundo"}
+                Cargo={"Professor e Pesquisador"}
                 />
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"./reudismam.jpg"}
+                Nome={"Dr. Reudismam Rolim"}
+                Cargo={"Professor e Pesquisador"}
                 />
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"walber2.jpg"}
+                Nome={"Dsc. Walber Adriano"}
+                Cargo={"Professor e Pesquisador"}
                 />
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"italo.jpg"}
+                Nome={"Dr. Ítalo Assis"}
+                Cargo={"Professor e Pesquisador"}
                 />
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"samara.png"}
+                Nome={"Dra. Sâmara Paiva"}
+                Cargo={"Professor e Pesquisador"}
                 />
                 <CardsEquipe 
-                Foto={"https://images.unsplash.com/photo-1502685104226-ee32379fefbe"}
-                Nome={"Lucas Oliveira"}
-                Cargo={"Desenvolvedor Frontend"}
+                Foto={"rosana.jpeg"}
+                Nome={"Dra. Rosana Rego"}
+                Cargo={"Professor e Pesquisador"}
+                />
+                <CardsEquipe 
+                Foto={"kennedy.png"}
+                Nome={"Dr. Kennedy Reurisom"}
+                Cargo={"Professor e Pesquisador"}
+                />
+                <CardsEquipe 
+                Foto={"felipe_torres2.jpg"}
+                Nome={"Msc. Felipe Torres"}
+                Cargo={"Professor e Pesquisador"}
+                />
+                <CardsEquipe 
+                Foto={"ferdinandy.png"}
+                Nome={"Msc. Ferdinandy Chagas"}
+                Cargo={"Professor e Pesquisador"}
                 />
             </div>
         </div>

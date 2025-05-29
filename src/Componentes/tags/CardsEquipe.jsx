@@ -7,7 +7,7 @@ export default function CardsEquipe({ Foto, Nome, Cargo }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.2 }}
-     className="text-[#EFECFF] bg-[#17181A] w-[410px] h-[400px] flex flex-col justify-start border-2 border-[#5F45FF] rounded-[10px] overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
+     className="text-[#EFECFF] bg-[#17181A] w-[410px] h-[400px] flex flex-col border-2 border-[#5F45FF] rounded-[10px] overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg shadow-[#5F45FF]/50">
       {Foto && (
         <img
           className="w-full h-[300px] object-cover block"
