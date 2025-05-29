@@ -40,7 +40,7 @@ function Sobre() {
   ];
 
   return (
-    <div className="w-full min-h-[781px] flex flex-col items-center gap-16 text-[#EFECFF] justify-center bg-[#1C1D20] px-4 py-10"
+    <div className="w-full min-h-[781px] flex flex-col items-center gap-16 text-[#EFECFF] justify-center bg-[#1C1D20] px-4 py-4"
     id="Sobre">
       <div className="text-center">
         <p className="font-[700] text-[40px]">Perguntas Frequentes</p>

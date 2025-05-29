@@ -7,6 +7,8 @@ function Footertwo() {
         <CardsSocial
          title="Pedro Arthur"
          description="Desenvolvidor Front-End"
+         link={"https://www.instagram.com/pedro_marrtins/"}
+         link2={"https://github.com/arthurpedr"}
          icon="./branco-instagram.svg"
          icon2="./icons8-github.svg"
           />
@@ -14,6 +16,15 @@ function Footertwo() {
           <CardsSocial
          title="Ruan"
          description="UX/UI Design"
+         icon="./branco-instagram.svg"
+         icon2="./icons8-github.svg"
+          />
+
+          <CardsSocial
+         title="LISA"
+         description="Laboratório"
+         link={"https://www.instagram.com/lisa.ufersa/"}
+         link2={"https://github.com/lisa-ufersa"}
          icon="./branco-instagram.svg"
          icon2="./icons8-github.svg"
           />

@@ -3,12 +3,12 @@ import React from "react";
 function Home() {
   return (
     <div
-      className="flex flex-col justify-center items-center w-full h-[180vh] md:h-[1020px] bg-[#1C1D20] gap-80 md:gap-20 lg:gap-[150px]"
+      className="flex flex-col justify-center items-center w-full h-[150vh] md:h-[1020px] bg-[#1C1D20] gap-80 md:gap-20 lg:gap-[150px]"
       id="Home"
     >
       <div className="flex justify-center w-full lg:max-w-[1280px] h-[517px] gap-[0px] lg:gap-[80px] md:flex-nowrap flex-wrap">
         <div className="flex flex-col justify-center w-[300px] md:w-[50%] h-full text-[#EFECFF] z-10 gap-[16px]">
-          <p className="font-[700] text-[26px] lg:text-[56px]">
+          <p className="font-[700] text-[28px] lg:text-[56px]">
             Laboratório de Inovação em Software e Automação
           </p>
           <p className="font-[400] text-[16px] md:text-[24px] text-[#CDC5FF] text-justify">

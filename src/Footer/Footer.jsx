@@ -3,7 +3,7 @@ import BoxFooter from "../Componentes/tags/BoxFooter.jsx"
 
 function Contato() {
   return (
-    <footer className="w-full h-[180vh] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4 py-10"
+    <footer className="w-full h-[180vh] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4"
     id="Contato">
       <div className="max-w-[1280px] h-[83px] flex flex-col items-center justify-center">
         <p className="font-[700] text-[40px]">Entre em Contato</p>
