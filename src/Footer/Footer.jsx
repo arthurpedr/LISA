@@ -3,7 +3,7 @@ import BoxFooter from "../Componentes/tags/BoxFooter.jsx"
 
 function Contato() {
   return (
-    <footer className="w-full h-[180vh] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4"
+    <footer className="w-full h-[1050px] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4"
     id="Contato">
       <div className="max-w-[1280px] h-[83px] flex flex-col items-center justify-center">
         <p className="font-[700] text-[40px]">Entre em Contato</p>
@@ -64,7 +64,7 @@ function Contato() {
           </button>
         </form>
       </div>
-      <div className="max-w-[1304px] h-[81px] flex justify-center items-center gap-4 flex-wrap lg:flex-nowrap">
+      <div className="max-w-[1304px] h-[81px] flex justify-center items-center gap-4 flex-wrap lg:flex-nowrap mb-50 md:mb-45 lg:mb-0">
         <BoxFooter
         icon="./Endereco.svg"
         title="Endereço:"

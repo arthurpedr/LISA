@@ -31,7 +31,7 @@ function Footertwo() {
       </div>
 
       <div>
-        <p className="text-[20px] text-[#EFECFF]">
+        <p className="text-[20px] text-[#EFECFF] mb-4">
           &copy; 2025 Todos os direitos reservados.
         </p>
       </div>
