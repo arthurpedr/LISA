@@ -3,17 +3,17 @@ import BoxFooter from "../Componentes/tags/BoxFooter.jsx"
 
 function Contato() {
   return (
-    <footer className="w-full h-[1050px] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4"
+    <footer className="w-full md:h-[1050px] lg:h-[920px] flex flex-col items-center justify-center gap-16 text-[#EFECFF] bg-[#1C1D20] px-4 py-8"
     id="Contato">
-      <div className="max-w-[1280px] h-[83px] flex flex-col items-center justify-center">
-        <p className="font-[700] text-[40px]">Entre em Contato</p>
-        <p className="font-[400] text-[20px] text-[#CDC5FF]">
+      <div className="max-w-[1280px] h-full flex flex-col items-center justify-center text-center">
+        <p className="font-[700] text-[32px] md:text-[40px]">Entre em Contato</p>
+        <p className="font-[400] md:text-[20px] text-[#CDC5FF]">
           Ficou com dúvidas ou quer saber mais? Fale com a nossa equipe. Estamos
           prontos para ajudar.
         </p>
       </div>
       <div>
-        <form className="w-[300px] md:w-[500px] h-[519px] flex flex-col items-center justify-center gap-[20px]">
+        <form className="w-[90vw] md:w-[300px] md:w-[500px] h-[519px] flex flex-col items-center justify-center gap-[20px]">
           <label htmlFor="nome" className="self-start text-[16px] text-[#EFECFF]">
             Nome
           </label>

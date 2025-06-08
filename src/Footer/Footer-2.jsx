@@ -30,9 +30,9 @@ function Footertwo() {
           />
       </div>
 
-      <div>
-        <p className="text-[20px] text-[#EFECFF] mb-4">
-          &copy; 2025 Todos os direitos reservados.
+      <div className="max-md-w-[90vw] overflow-hidden">
+        <p className="md:text-[20px] text-[#EFECFF] mb-4">
+          &copy; LISA 2025 Todos os direitos reservados.
         </p>
       </div>
     </div>

@@ -40,9 +40,9 @@ function Header() {
     <header
       ref={headerRef}
       id="main-header"
-      className="fixed w-full flex justify-center top-0 left-0 text-[#F2F2F2] font-bold z-50 transition-all duration-300 px-6 lg:px-0"
+      className="fixed w-full flex justify-center top-0 left-0 text-[#F2F2F2] font-bold z-50 transition-all duration-300"
     >
-      <div className="flex w-[1280px] items-center justify-between py-4">
+      <div className="flex max-lg:w-[90vw] w-[1280px] items-center justify-between py-4">
         {/* Logo */}
         <img className="w-[115px] h-[48px]" src="./Logo.svg" alt="logo lisa" />
 
@@ -75,7 +75,7 @@ function Header() {
           onClick={toggleMenu}
           aria-expanded={isOpen}
           aria-label="Toggle Menu"
-          className="md:hidden z-50"
+          className="md:hidden right-0"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} className="menuanimation" />}
         </button>

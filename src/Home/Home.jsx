@@ -7,7 +7,7 @@ function Home() {
       id="Home"
     >
       <div className="flex justify-center w-full lg:max-w-[1280px] h-[517px] gap-[0px] lg:gap-[80px] md:flex-nowrap flex-wrap">
-        <div className="flex flex-col justify-center w-[300px] md:w-[50%] h-full text-[#EFECFF] z-10 gap-[16px]">
+        <div className="flex flex-col justify-center w-[90vw] md:w-[50%] h-full text-[#EFECFF] z-10 gap-4">
           <p className="font-[700] text-[28px] lg:text-[56px]">
             Laboratório de Inovação em Software e Automação
           </p>
@@ -32,7 +32,7 @@ function Home() {
           />
         </div>
       </div>
-      <div className="relative w-full lg:w-[1280px] overflow-hidden flex h-[88px] bg-white rounded-[16px]">
+      <div className="relative w-full lg:w-[1280px] overflow-hidden flex h-[88px] bg-white md:rounded-[16px]">
 
         {/* Gradiente nas laterais*/}
         <div className="absolute left-0 top-0 w-[100px] h-full z-20 pointer-events-none bg-gradient-to-r from-white to-transparent" />

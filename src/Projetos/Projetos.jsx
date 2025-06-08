@@ -7,20 +7,20 @@ function Projetos() {
           <img className="w-full" src="./Fogetao.svg" alt="lisa" />
         </div>
         <div className="flex flex-col items-center max-w-[1280px] lg:max-w-[1000px] h-[271px] gap-[50px]">
-          <div className="flex flex-col text-center md:text-normal max-w-[1280px] md:max-w-[1000px] h-[83px]">
-            <p className="font-[700] text-[40px]">Nossos Propósitos</p>
-            <p className="font-[400] text-[20px] text-[#CDC5FF]">Conheça a missão, visão e valores que guiam nosso programa.</p>
+          <div className="flex flex-col text-center max-w-[1280px] max-md:w-[90vw]">
+            <p className="font-[700] text-[32px] md:text-[40px]">Nossos Propósitos</p>
+            <p className="font-[400] md:text-[20px] text-[#CDC5FF]">Conheça a missão, visão e valores que guiam nosso programa.</p>
           </div>
-          <div className="flex max-w-[1000px] h-[148px] gap-4 text-[16px] font-[400] flex-wrap lg:flex-nowrap justify-center items-center">
-            <div className="bg-[#EFECFF] text-[#1F2023] w-[317px] h-[148px] items-center flex text-center rounded-[16px] px-4">
+          <div className="flex max-w-[1000px] gap-4 text-[16px] font-[400] flex-wrap lg:flex-nowrap justify-center items-center">
+            <div className="bg-[#EFECFF] text-[#1F2023] w-[90vw] md:w-[317px] md:h-[148px] items-center flex text-center rounded-[16px] p-4">
               <p>
                 <span>Missão:</span> Estar na vanguarda da tecnologia, aplicando as tendências mais atuais para resolver desafios complexos.
               </p>
             </div>
-            <div className="bg-[#EFECFF] text-[#1F2023] w-[317px] h-[148px] items-center flex text-center rounded-[16px] px-4">
+            <div className="bg-[#EFECFF] text-[#1F2023] w-[90vw] md:w-[317px] md:h-[148px] p-4 items-center flex text-center rounded-[16px]">
               <p><span>Visão:</span> Ser referência na criação de soluções tecnológicas inovadoras que gerem impacto positivo.</p>
             </div>
-            <div className="bg-[#EFECFF] text-[#1F2023] w-[317px] h-[148px] items-center flex text-center rounded-[16px] px-4">
+            <div className="bg-[#EFECFF] text-[#1F2023] w-[90vw] md:w-[317px] md:h-[148px] p-4 items-center flex text-center rounded-[16px]">
               <p><span>Valores:</span> Compartilhar conhecimento, fomentar a comunidade e crescer com propósito.</p>
             </div>
 

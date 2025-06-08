@@ -2,11 +2,11 @@ import InfoCard from "../Componentes/tags/Cards.jsx";
 
 function Serviços() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-full lg:h-[894px] bg-[#1C1D20] text-[#EFECFF] gap-45 md:gap-20"
+    <div className="flex flex-col justify-center items-center w-full h-full lg:h-[894px] bg-[#1C1D20] text-[#EFECFF] gap-20"
     id="Serviços">
-      <div className="flex flex-col max-w-[1280px] h-[110px] text-center px-4">
-        <p className="font-[700] text-[40px]">Como podemos te ajudar</p>
-        <p className="text-[#CDC5FF] font-[400] text-[20px]">Nossas pesquisas e projetos visam melhorar a eficiência, qualidade e segurança de processos em diversas áreas, por meio da aplicação de técnicas de automação e tecnologias avançadas.</p>
+      <div className="flex flex-col max-w-[1280px] h-full text-center px-4 gap-4">
+        <p className="font-[700] text-[32px] md:text-[40px]">Como podemos te ajudar</p>
+        <p className="text-[#CDC5FF] font-[400] md:text-[20px]">Nossas pesquisas e projetos visam melhorar a eficiência, qualidade e segurança de processos em diversas áreas, por meio da aplicação de técnicas de automação e tecnologias avançadas.</p>
       </div>
       <div className="max-w-[1280px] grid grid-cols-1 lg:grid-cols-3 gap-4">
         <InfoCard
