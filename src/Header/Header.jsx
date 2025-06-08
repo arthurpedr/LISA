@@ -75,7 +75,7 @@ function Header() {
           onClick={toggleMenu}
           aria-expanded={isOpen}
           aria-label="Toggle Menu"
-          className="md:hidden right-0"
+          className="md:hidden right-0 z-[60]"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} className="menuanimation" />}
         </button>

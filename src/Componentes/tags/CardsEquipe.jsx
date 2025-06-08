@@ -1,12 +1,22 @@
 import { motion } from "framer-motion";
 
-export default function CardsEquipe({ Foto, Nome, Cargo }) {
+export default function CardsEquipe({ Foto, Nome, Cargo, Animated }) {
+
+  const config = {
+      initial:{ opacity: 0, y: 80 },
+      whileInView:{ opacity: 1, y: 0 },
+      transition:{ duration: 0.6, ease: "easeOut" },
+      viewport:{ once: true, amount: 0.2 },
+    }
+
   return (
-    <motion.div
-    initial={{ opacity: 0, y: 80 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.2 }}
+
+   
+  
+
+    <motion.div 
+    {...(Animated ? config : {})}
+
      className="text-[#EFECFF] bg-[#17181A] w-[90vw] md:w-[400px] h-[400px] flex flex-col border-2 border-[#5F45FF] rounded-[10px] overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg shadow-[#5F45FF]/50">
       {Foto && (
         <img
