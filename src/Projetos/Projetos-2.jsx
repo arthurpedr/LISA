@@ -5,7 +5,7 @@ function Projetostwo() {
                 <p className="font-[700] text-[25px] md:text-[40px] leading-none">Dê o próximo passo rumo ao sucesso!</p>
                 <p className="font-[400] text-[14px] md:text-[20px]">Descubra como nossa expertise pode transformar seus resultados. Agende agora uma consultoria gratuita e receba um diagnóstico personalizado.</p>
             </div>
-            <button className="max-w-[336px] py-2 px-4 bg-transparent hover:bg-[#EFECFF] hover:text-[#5F45FF] border-1 rounded-[10px] transitio-all duration-300 cursor-pointer px-2" type="button">Agendar Consultoria</button>
+            <a href="#Contato"><button className="max-w-[336px] py-2 px-4 bg-transparent hover:bg-[#EFECFF] hover:text-[#5F45FF] border-1 rounded-[10px] transitio-all duration-300 cursor-pointer" type="button">Agendar Consultoria</button></a>
         </div>
     )
 }

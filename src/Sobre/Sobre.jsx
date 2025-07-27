@@ -1,50 +1,80 @@
 import { useState } from "react";
 import ModalPerguntas from "../Componentes/tags/ModalPerguntas";
+import { ThemeProvider } from "../Context/ThemeContext";
 
 function Sobre() {
   const [abertoId, setAbertoId] = useState(null);
 
   const perguntas = [
-    {
-      id: 1,
-      Titulo: "O que é automação de processos?",
-      Descricao:
-        "A automação de processos é a aplicação de tecnologias e técnicas para aprimorar e otimizar processos manuais e repetitivos em diversas áreas, como produção, logística e administração.",
-    },
-    {
-      id: 2,
-      Titulo: "O que é processamento de sinais?",
-      Descricao:
-        "O processamento de sinais é a análise, interpretação e transformação de sinais, como voz, imagens e dados, para aprimorar a qualidade e eficiência de sistemas e processos.",
-    },
-    {
-      id: 3,
-      Titulo: "O que é inteligência artificial?",
-      Descricao: "A inteligência artificial é a aplicação de tecnologias e técnicas para criar sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como reconhecimento de voz e imagem, tomada de decisão e aprendizado automático.",
-    },
-    {
-      id: 4,
-      Titulo: "O que é melhoria de processos de desenvolvimento de software?",
-      Descricao: "A melhoria de processos de desenvolvimento de software é a aplicação de técnicas e metodologias para aprimorar a qualidade e eficiência de processos de desenvolvimento de software, desde a concepção até a entrega final.",
-    },
-    {
-      id: 5,
-      Titulo: "O que é automação industrial?",
-      Descricao: "A automação industrial é a aplicação de tecnologias e técnicas para otimizar e automatizar processos em ambientes industriais, como produção, logística e controle de qualidade.",
-    },
-    {
-      id: 6,
-      Titulo: "Como posso colaborar com o grupo de P&D?",
-      Descricao: "Você pode entrar em contato conosco por meio do formulário de contato em nosso site ou por e-mail, e podemos discutir possíveis oportunidades de colaboração, como projetos de pesquisa, parcerias ou programas de estágio.",
-    },
+   {
+    id: 1,
+    Titulo: "O que é o LISA?",
+    Descricao:
+      "O Laboratório de Inovação em Software e Automação (LISA) é um espaço dedicado à pesquisa, desenvolvimento e inovação nas áreas de tecnologia da informação, automação industrial, robótica e soluções digitais.",
+  },
+  {
+    id: 2,
+    Titulo: "Quem pode participar das atividades do LISA?",
+    Descricao:
+      "Estudantes, professores, pesquisadores e parceiros da indústria podem participar de projetos, cursos e eventos do laboratório. Algumas atividades são abertas ao público externo mediante inscrição.",
+  },
+  {
+    id: 3,
+    Titulo: "Quais áreas de pesquisa o LISA desenvolve?",
+    Descricao:
+      "Desenvolvimento de software e aplicativos, automação de processos industriais, robótica aplicada, Internet das Coisas (IoT), Inteligência Artificial e Machine Learning, tecnologias assistivas, infraestrutura e segurança de redes.",
+  },
+  {
+    id: 4,
+    Titulo: "Como posso me inscrever em cursos ou eventos do laboratório?",
+    Descricao:
+      "As inscrições são divulgadas pelo site oficial e pelas redes sociais do LISA (@lisa.ufersa). Basta acompanhar as publicações e seguir as instruções de inscrição em cada oportunidade.",
+  },
+  {
+    id: 5,
+    Titulo: "Empresas podem propor parcerias ou projetos?",
+    Descricao:
+      "Sim. O LISA está aberto a parcerias com empresas públicas e privadas interessadas em inovação tecnológica, desenvolvimento de soluções personalizadas ou capacitação profissional.",
+  },
+  {
+    id: 6,
+    Titulo: "Como entrar em contato com o LISA?",
+    Descricao:
+      "Você pode entrar em contato pelo e-mail oficial do laboratório (lisa.cmpf@ufersa.edu.br), formulário de contato disponível no site ou pelas redes sociais.",
+  },
+  {
+    id: 7,
+    Titulo: "O LISA oferece estágio ou oportunidades para alunos?",
+    Descricao:
+      "Sim. Estudantes regularmente matriculados podem participar como bolsistas ou voluntários em projetos desenvolvidos no laboratório. Mas não ofertamos estágio.",
+  },
+  {
+    id: 8,
+    Titulo: "Onde está localizado o LISA?",
+    Descricao:
+      "O LISA está localizado na Universidade Federal Rural do Semi-Árido (UFERSA), Câmpus Pau dos Ferros, com estrutura voltada a ensino, pesquisa e extensão.",
+  },
+  {
+    id: 9,
+    Titulo: "Quais são os objetivos do laboratório?",
+    Descricao:
+      "O LISA busca promover: inovação tecnológica, capacitação de profissionais e soluções para problemas reais da indústria e sociedade.",
+  },
+  {
+    id: 10,
+    Titulo: "Como posso acompanhar as novidades do LISA?",
+    Descricao:
+      "Siga o LISA no Instagram ou acompanhe as atualizações diretamente pelo site.",
+  }
   ];
 
   return (
-    <div className="w-full min-h-[781px] flex flex-col items-center gap-16 text-[#EFECFF] justify-center bg-[#1C1D20] px-4 py-4"
+    <ThemeProvider>
+      <div className="w-full min-h-[781px] flex flex-col items-center gap-16 text-[#1C1D20] dark:text-[#EFECFF] justify-center bg-[#e7e3ff] dark:bg-[#1C1D20] px-4 py-10"
     id="Sobre">
       <div className="text-center">
         <p className="font-[700] text-[40px]">Perguntas Frequentes</p>
-        <p className="font-[400] text-[20px] text-[#CDC5FF]">
+        <p className="font-[400] text-[20px] text-[#3F3D56] dark:text-[#CDC5FF]">
           Tire suas dúvidas sobre temas técnicos e como participar das nossas iniciativas.
         </p>
       </div>
@@ -63,6 +93,7 @@ function Sobre() {
         ))}
       </div>
     </div>
+    </ThemeProvider>
   );
 }
 

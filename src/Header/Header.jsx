@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
+import { ThemeProvider } from "../Context/ThemeContext";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,21 +38,19 @@ function Header() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header
+      <header
       ref={headerRef}
       id="main-header"
-      className="fixed w-full flex justify-center top-0 left-0 text-[#F2F2F2] font-bold z-50 transition-all duration-300"
+      className="fixed w-full flex justify-center bg-[#e7e3ff] dark:bg-[#1C1D20] top-0 left-0 text-[#1C1D20] dark:text-[#ECEEFB] font-bold z-50 transition-all duration-300"
     >
       <div className="flex max-lg:w-[90vw] w-[1280px] items-center justify-between py-4">
         {/* Logo */}
-        <img className="w-[115px] h-[48px]" src="./Logo.svg" alt="logo lisa" />
+        <img className="w-[115px] h-[48px] hidden dark:block" src="./Logo.svg" alt="logo lisa" />
+        <img className="w-[115px] h-[48px] block dark:hidden" src="./Logo-2.svg" alt="logo lisa" />
 
         {/* Menu Desktop */}
         <nav className="hidden md:flex items-center gap-8 text-x">
           <ul className="flex items-center gap-8">
-            <li>
-              <a className="underline-hover" href="#Home">Home</a>
-            </li>
             <li>
               <a className="underline-hover" href="#Serviços">Serviços</a>
             </li>
@@ -62,7 +61,7 @@ function Header() {
               <a className="underline-hover" href="#Equipe">Equipe</a>
             </li>
             <li>
-              <a className="underline-hover" href="#Sobre">Sobre</a>
+              <a className="underline-hover" href="#Sobre">Dúvidas</a>
             </li>
             <li>
               <a className="underline-hover" href="#Contato">Contato</a>
@@ -83,11 +82,8 @@ function Header() {
 
       {/* Menu Mobile */}
       {isOpen && (
-        <nav className="md:hidden fixed top-0 left-0 w-full h-screen bg-[#0A0A0A]/90 backdrop-blur-lg z-40 flex flex-col items-center justify-center text-lg font-semibold transition-all duration-300">
+        <nav className="md:hidden fixed top-0 left-0 w-full h-screen bg-[#fff]/5 dark:bg-[#0A0A0A]/90 backdrop-blur-lg z-40 flex flex-col items-center justify-center text-lg font-bold transition-all duration-300">
           <ul className="flex flex-col items-center justify-center gap-6">
-            <li>
-              <a className="underline-hover" onClick={toggleMenu} href="#Home">Home</a>
-            </li>
             <li>
               <a className="underline-hover" onClick={toggleMenu} href="#Serviços">Serviços</a>
             </li>
@@ -95,10 +91,10 @@ function Header() {
               <a className="underline-hover" onClick={toggleMenu} href="#Projetos">Projetos</a>
             </li>
             <li>
-              <a className="underline-hover" onClick={toggleMenu} href="#Sobre">Sobre</a>
+              <a className="underline-hover" onClick={toggleMenu} href="#Equipe">Equipe</a>
             </li>
             <li>
-              <a className="underline-hover" onClick={toggleMenu} href="#Equipe">Equipe</a>
+              <a className="underline-hover" onClick={toggleMenu} href="#Sobre">Dúvidas</a>
             </li>
             <li>
               <a className="underline-hover" onClick={toggleMenu} href="#Contato">Contato</a>

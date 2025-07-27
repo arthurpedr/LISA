@@ -4,6 +4,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay } from "swiper/modules";
 import InfoCard from "../Componentes/tags/Cards.jsx";
+import { ThemeProvider } from "../Context/ThemeContext.jsx";
+import ButtonTop from "../Componentes/tags/Scrolltotopbutton.jsx";
 
 function Serviços() {
   const servicos = [
@@ -46,15 +48,17 @@ function Serviços() {
   ];
 
   return (
-    <div
-      className="flex flex-col justify-center items-center w-full h-full lg:h-[894px] bg-[#1C1D20] text-[#EFECFF] gap-10"
+    <ThemeProvider>
+      <ButtonTop/>
+      <div
+      className="flex flex-col justify-center items-center w-full h-full lg:h-[894px] bg-[#e7e3ff] dark:bg-[#1C1D20] text-[#1C1D20] dark:text-[#EFECFF]"
       id="Serviços"
     >
-      <div className="flex flex-col max-w-[1280px] h-full text-center px-4 gap-4">
+      <div className="flex flex-col max-w-[1280px] h-[250px] text-center px-4 gap-4">
         <p className="font-[700] text-[32px] md:text-[40px]">
           Como podemos te ajudar
         </p>
-        <p className="text-[#CDC5FF] font-[400] md:text-[20px]">
+        <p className="text-[#3F3D56] dark:text-[#CDC5FF] font-[400] md:text-[20px]">
           Nossas pesquisas e projetos visam melhorar a eficiência, qualidade e
           segurança de processos em diversas áreas, por meio da aplicação de
           técnicas de automação e tecnologias avançadas.
@@ -90,6 +94,7 @@ function Serviços() {
         </Swiper>
       </div>
     </div>
+    </ThemeProvider>
   );
 }
 export default Serviços;
