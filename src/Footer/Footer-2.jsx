@@ -42,9 +42,9 @@ function Footertwo() {
             title="Ruan"
             description="UX/UI Design"
             icon="./branco-github.svg"
-            link="https://github.com/arthurpedr"
+            link="https://github.com/ruanpabllobc"
             icon2="./branco-instagram.svg"
-            link2="https://www.instagram.com/pedro_marrtins/"
+            link2="https://www.instagram.com/ruanpabllobc"
           />
         </div>
       </div>

@@ -10,7 +10,7 @@ const Darkmode = () => {
         font-[600] text-[25px] px-6 py-3 rounded-md transition-all duration-300 hover:ring-0 cursor-pointer flex justify-center items-center shadow-md hover:shadow-[#5F45FF]/90"
       type="button"
     >
-      {darkMode ? "𖤓" : "⏾"}
+      {darkMode ? "𖤓" : "☾"}
     </button>
   );
 };
